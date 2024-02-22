@@ -1,0 +1,21 @@
+﻿<Window x:Class="PR16_6_Nikolaev_Vorobьёv.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR16_6_Nikolaev_Vorobьёv"
+        mc:Ignorable="d"
+        Title="ПР6" Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+            <Button DockPanel.Dock="Top" Background="LightGreen">Главная страница</Button>
+            <Button DockPanel.Dock="Top" Background="LightGreen">О компании</Button>
+            <Button DockPanel.Dock="Bottom" Background="Blue">В контакте  Телеграмм  Помощь сайту</Button>
+            <Button DockPanel.Dock="Left" Background="LightBlue">Информация</Button>
+            <Button DockPanel.Dock="Left" Background="LightBlue">Новости</Button>
+            <Button DockPanel.Dock="Right" Background="Green">Категория раздела</Button>
+            <Button DockPanel.Dock="Bottom" Background="Orange">Текстовая часть</Button>
+        </DockPanel>
+
+    </Grid>
+</Window>
